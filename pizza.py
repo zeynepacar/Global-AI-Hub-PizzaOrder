@@ -125,6 +125,7 @@ def order_system():
   pizza = None
   
   #Asking to user for a pizza choice until a valid option selected
+  #match case will only work with Python 3.10 and later versions
   while pizza == None:
    pizza_choice = input("Enter your pizza choice: ")
    match pizza_choice:
